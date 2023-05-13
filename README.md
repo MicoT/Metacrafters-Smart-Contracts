@@ -12,19 +12,19 @@ The code was made using react for the front end of the application and uses a li
 
 To run this code will require an IDE and Node Js
 
-Once the repository has been cloned you need to peform these commands in your terminal.
+Once the repository has been cloned you need to peform these commands in your terminal:
 ```
 npm install 
 
 npm start
 ```
-After that simple run this code to set up hardhat
+After that simple run this code to set up hardhat:
 ```
-npmnstall --save-dev hardhat
+npm install --save-dev hardhat
 
-npx hrdhat node
+npx hardhat node
 
-npx hrdhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploy.js --network localhost
 ```
 
 These commands should ensure that both the website and the local blockchain is running.
